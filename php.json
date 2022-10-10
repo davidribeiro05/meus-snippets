@@ -1,0 +1,263 @@
+{
+    "this abstraction": {
+        "prefix": "tt",
+        "body": "$$this->${1};",
+        "description": "Call $this syntax"
+    },
+    "public attribute": {
+        "prefix": "puba",
+        "body": [
+            "public $${1};"
+        ],
+        "description": "Create an public attribute"
+    },
+    "public string attribute": {
+        "prefix": "pubstr",
+        "body": [
+            "public string $${1};"
+        ],
+        "description": "Create an public string attribute"
+    },
+    "public int attribute": {
+        "prefix": "pubint",
+        "body": [
+            "public int $${1};"
+        ],
+        "description": "Create an public int attribute"
+    },
+    "public float attribute": {
+        "prefix": "pubflo",
+        "body": [
+            "public float $${1};"
+        ],
+        "description": "Create an public float attribute"
+    },
+    "public bool attribute": {
+        "prefix": "pubbol",
+        "body": [
+            "public bool $${1};"
+        ],
+        "description": "Create an public bool attribute"
+    },
+    "protected attribute": {
+        "prefix": "proa",
+        "body": [
+            "protected $${1};"
+        ],
+        "description": "Create an protected attribute"
+    },
+    "protected string attribute": {
+        "prefix": "prostr",
+        "body": [
+            "protected string $${1};"
+        ],
+        "description": "Create an protected string attribute"
+    },
+    "protected int attribute": {
+        "prefix": "proint",
+        "body": [
+            "protected int $${1};"
+        ],
+        "description": "Create an protected int attribute"
+    },
+    "protected float attribute": {
+        "prefix": "proflo",
+        "body": [
+            "protected float $${1};"
+        ],
+        "description": "Create an protected float attribute"
+    },
+    "protected bool attribute": {
+        "prefix": "probol",
+        "body": [
+            "protected bool $${1};"
+        ],
+        "description": "Create an protected bool attribute"
+    },
+    "private attribute": {
+        "prefix": "pria",
+        "body": [
+            "private $${1};"
+        ],
+        "description": "Create an private attribute"
+    },
+    "private string attribute": {
+        "prefix": "pristr",
+        "body": [
+            "private string $${1};"
+        ],
+        "description": "Create an private string attribute"
+    },
+    "private int attribute": {
+        "prefix": "priint",
+        "body": [
+            "private int $${1};"
+        ],
+        "description": "Create an private int attribute"
+    },
+    "private float attribute": {
+        "prefix": "priflo",
+        "body": [
+            "private float $${1};"
+        ],
+        "description": "Create an private float attribute"
+    },
+    "private bool attribute": {
+        "prefix": "pribol",
+        "body": [
+            "private bool $${1};"
+        ],
+        "description": "Create an private bool attribute"
+    },
+    // START OF FUNCTIONS
+    "public function": {
+        "prefix": "pubf",
+        "body": [
+            "public function ${1}()",
+            "{",
+            "${2}",
+            "}"
+        ],
+        "description": "Create an public function",
+    },
+    "public function return string": {
+        "prefix": "pubfrstr",
+        "body": [
+            "public function ${1}(): string",
+            "{",
+            "${2}",
+            "}"
+        ],
+        "description": "Create an public function wich return string",
+    },
+    "public function return int": {
+        "prefix": "pubfrint",
+        "body": [
+            "public function ${1}(): int",
+            "{",
+            "${2}",
+            "}"
+        ],
+        "description": "Create an public function wich return int",
+    },
+    "public function return float": {
+        "prefix": "pubfrflo",
+        "body": [
+            "public function ${1}(): float",
+            "{",
+            "${2}",
+            "}"
+        ],
+        "description": "Create an public function wich return float",
+    },
+    "public function return bool": {
+        "prefix": "pubfrbool",
+        "body": [
+            "public function ${1}(): bool",
+            "{",
+            "${2}",
+            "}"
+        ],
+        "description": "Create an public function wich return bool",
+    },
+    "protected function": {
+        "prefix": "prof",
+        "body": [
+            "protected function ${1}()",
+            "{",
+            "${2}",
+            "}"
+        ],
+        "description": "Create an protected function",
+    },
+    "protected function return string": {
+        "prefix": "profrstr",
+        "body": [
+            "protected function ${1}(): string",
+            "{",
+            "${2}",
+            "}"
+        ],
+        "description": "Create an protected function wich return string",
+    },
+    "protected function return int": {
+        "prefix": "profrint",
+        "body": [
+            "protected function ${1}(): int",
+            "{",
+            "${2}",
+            "}"
+        ],
+        "description": "Create an protected function wich return int",
+    },
+    "protected function return float": {
+        "prefix": "profrflo",
+        "body": [
+            "protected function ${1}(): float",
+            "{",
+            "${2}",
+            "}"
+        ],
+        "description": "Create an protected function wich return float",
+    },
+    "protected function return bool": {
+        "prefix": "profrbool",
+        "body": [
+            "protected function ${1}(): bool",
+            "{",
+            "${2}",
+            "}"
+        ],
+        "description": "Create an protected function wich return bool",
+    },
+    "private function": {
+        "prefix": "prif",
+        "body": [
+            "private function ${1}()",
+            "{",
+            "${2}",
+            "}"
+        ],
+        "description": "Create an private function",
+    },
+    "private function return string": {
+        "prefix": "prifrstr",
+        "body": [
+            "private function ${1}(): string",
+            "{",
+            "${2}",
+            "}"
+        ],
+        "description": "Create an private function wich return string",
+    },
+    "private function return int": {
+        "prefix": "prifrint",
+        "body": [
+            "private function ${1}(): int",
+            "{",
+            "${2}",
+            "}"
+        ],
+        "description": "Create an private function wich return int",
+    },
+    "private function return float": {
+        "prefix": "prifrflo",
+        "body": [
+            "private function ${1}(): float",
+            "{",
+            "${2}",
+            "}"
+        ],
+        "description": "Create an private function wich return float",
+    },
+    "private function return bool": {
+        "prefix": "prifrbool",
+        "body": [
+            "private function ${1}(): bool",
+            "{",
+            "${2}",
+            "}"
+        ],
+        "description": "Create an private function wich return bool",
+    }
+}
